@@ -1,0 +1,145 @@
+@keyframes slide-in-ep {
+
+0% {
+
+transform: translateX(-20rem);
+
+}
+
+100% {
+
+    transform: translateX(0);
+
+}
+
+}
+
+
+@keyframes fade-in-slide-left {
+
+  0% {
+  opacity: 0%;
+  transform: translateX(-80px);
+  
+  }
+  
+  100% {
+    opacity: 100%;
+      transform: translateX(0);
+  
+  }
+  
+  }
+
+
+@keyframes lace-rotation {
+    0% {
+      transform: rotate3d(0, 1, 0, 0deg); /* Start rotation */
+    }
+    50% {
+      transform: rotate3d(0, 1, 0, 180deg); /* Halfway rotation */
+    }
+    100% {
+      transform: rotate3d(0, 1, 0, 360deg); /* Full rotation */
+    }
+  }
+  
+
+
+  @keyframes go-up {
+
+
+    0% {
+
+transform: translateY(0px);
+
+
+    }
+
+    100% {
+
+      transform: translateY(-350px);
+
+    }
+  }
+
+
+  @keyframes go-down {
+
+    0% {
+
+      transform: translateY(-350px);
+
+    }
+
+    100% {
+
+      transform: translateY(0px);
+
+    }
+
+
+
+  }
+
+
+
+  @keyframes appear {
+
+    0% {
+
+      opacity: 0%;
+
+    }
+
+
+    100% {
+
+
+      opacity: 100%;
+    }
+
+
+  }
+
+
+  @keyframes cross-fade {
+    0% {
+      opacity: 0;   
+    }
+    8% {
+      opacity: 1;
+    }
+    20% {
+      opacity: 1;
+    }
+    28% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+
+  @keyframes pop-appear {
+    from {
+        opacity: 0;
+   
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes pop-disappear {
+    from {
+        opacity: 1;
+        transform: scale(1);
+    }
+    to {
+        opacity: 0;
+       
+    }
+}

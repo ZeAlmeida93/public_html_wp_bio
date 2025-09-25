@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&display=swap');
+
+
+
+
+// HEADER
+
+.custom-navbar {
+  font-family: 'Figtree','Arial';
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 10px 20px;
+  
+    .logo img {
+      width: 50px;
+    }
+  
+    .nav-links {
+      display: flex;
+      gap: 20px;
+      list-style: none;
+  
+      a {
+       
+        text-decoration: none;
+        color: #2a6171;
+        font-weight: bold;
+  
+        &:hover {
+          color: #24755e;
+        }
+      }
+    }
+  
+    .contact-button {
+      .btn {
+        background-color: #2a6171;
+        color: white;
+        padding: 8px 16px;
+        border-radius: 25px;
+        text-decoration: none;
+        font-weight: bold;
+  
+        &:hover {
+          background-color: #24755e;
+        }
+      }
+    }
+  }
+  

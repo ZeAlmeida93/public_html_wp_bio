@@ -1,0 +1,55 @@
+
+
+
+@mixin sm-margins {
+
+
+    margin: 2rem;
+   
+
+}
+
+
+
+@mixin biosolve-li {
+
+    text-transform: uppercase;
+    color: $third-darkblue-color;
+    font-size: $nav-titles;
+    font-weight: 500;
+
+}
+
+
+
+@mixin big-title {
+
+
+    font-size: $h3;
+    color: $main-green-color;
+    font-weight: 700;
+
+    
+}
+
+
+
+// Buttons
+
+@mixin bio-button {
+    background-color: $main-green-color;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: calc($paragraph - 2px);
+    color: $fifth-white-color;
+  
+
+    &:hover {
+        background-color: $second-blue-color;
+      
+    }
+}

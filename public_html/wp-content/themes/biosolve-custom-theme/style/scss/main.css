@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&display=swap");
+.custom-navbar {
+  font-family: "Figtree", "Arial";
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 10px 20px;
+}
+.custom-navbar .logo img {
+  width: 50px;
+}
+.custom-navbar .nav-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+.custom-navbar .nav-links a {
+  text-decoration: none;
+  color: #2a6171;
+  font-weight: bold;
+}
+.custom-navbar .nav-links a:hover {
+  color: #24755e;
+}
+.custom-navbar .contact-button .btn {
+  background-color: #2a6171;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.custom-navbar .contact-button .btn:hover {
+  background-color: #24755e;
+}/*# sourceMappingURL=main.css.map */
